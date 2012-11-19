@@ -1,0 +1,176 @@
+/********/
+/* etc  */
+/********/
+
+/* layout */
+.body-wrap {
+	width: 800px !important;
+	margin: 35px auto 40px;
+	background: #fff;
+	border: #ddd 1px solid;
+	-webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+       -moz-box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+    		box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+}
+
+/* GNB */
+.subnav {
+	display: none;
+}
+
+/* body */
+
+/* main */
+.main-wrap {
+	padding: 20px 40px;
+}
+
+.head-wrap {
+	margin: 30px 0;
+}
+.head-wrap h1 {
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 2em;
+	text-align: center;
+	text-shadow: 0 1px 0 white;
+	letter-spacing: -1px;
+}
+.head-wrap h1 > strong {
+	color: #f86;
+	font-size: 42px;
+}
+.head-wrap p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5em;
+	text-shadow: 0 1px 0 white;
+	color: #777;
+}
+
+.page h2 {
+	font-size: 24px;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #aaa;
+	margin-bottom: 20px;
+}
+.page h3 {
+	font-size: 22px;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #ddd;
+	margin-bottom: 20px;
+	color: #08c;
+}
+.page h4 {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+.page .icon {
+	margin-top: 2px;
+}
+.page .well {
+	font-size: 14px;
+	line-height: 1.4em;
+}
+.page em {
+	color: #f86;
+	font-style: normal;
+}
+.page p {
+	font-size: 16px;
+	line-height: 1.4em;
+	margin-left: 15px;
+	color: #555;
+}
+.page ol {
+	list-style-type: upper-alpha;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	margin-left: 40px;
+	font-size: 16px;
+	line-height: 1.4em;
+	color: #666;
+}
+.page ul {
+	list-style-type: decimal;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	margin-left: 40px;
+	font-size: 16px;
+	line-height: 1.4em;
+	color: #555;
+}
+.page .sign {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 22px;
+	color: #333;
+}
+/* terms */
+.terms {
+	margin-bottom: 50px;
+}
+.terms h1 {
+	font-size: 24px;
+	line-height: 1.5em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.terms h2 {
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+.terms p {
+	font-size: 14px;
+	line-height: 1.3em;
+}
+.terms ol {
+	font-size: 14px;
+	line-height: 1.3em;
+	margin-left: 25px;
+}
+.terms ol ol {
+}
+.terms ol ol ol {
+}
+.terms ul {
+	font-size: 14px;
+	line-height: 1.3em;
+	margin-left: 20px;
+	list-style-type: disc;
+}
+.terms ul > li {
+	margin-bottom: 10px;
+}
+.terms ul ul {
+	list-style-type: none;
+	font-size: 12px;
+}
+.terms ul ul > li{
+	margin-bottom: 5px;
+}
+
+/* error */
+.error {
+	margin: 120px auto 40px;
+	width: 500px !important;
+}
+.error h1 {
+	font-size: 30px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+}
+.error p {
+	font-size: 16px;
+	min-height: 100px;
+}

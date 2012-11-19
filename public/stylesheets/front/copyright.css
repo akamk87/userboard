@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*글로벌 카피라이트*/
+#copyright {width:100%; overflow:hidden; background-color:#333;}
+#footer {width:1000px; height:125px; background-color:#333; margin:0 auto;}
+#footer_txt1 {float:left; width:620px; font-size:11px; line-height:18px; color:#ccc; padding:25px 0px 0px 0px;}
+#footer_box2 { padding:48px 0px 0px 0px; float:right; }
+#footer_logo {float:right; width:154px; padding:3px;}
+#footer_txt2 { clear:both; float:right; text-align:right; padding:3px; font-size:12px; font-weight:bold; color:#eee; letter-spacing:0px; }
+
+#copyright a { color:#eee; text-decoration:none; font-weight:normal; }
+#copyright a:hover { color:#eee; text-decoration:none; }
+#copyright a:active { color:#eee; text-decoration:none; }
+#copyright a:focus { color:#eee; text-decoration:none; }

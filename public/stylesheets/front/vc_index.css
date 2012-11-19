@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 테두리 속성*/
+#wrap {width:1000px; margin:0 auto;}
+
+/* 투자자 타임라인 헤더 */ 
+#vc_header { width:970px; height:40px; margin-top:20px; padding:0 0 0 10px; }
+#vc_title { height:20px; float:left; }
+
+/* 타임라인 좌측 프로필, 메뉴 */
+#vc_left { width:220px; height:300px; float:left; padding:10px; }
+#vc_view_mid_infor1_mainphoto { width:220px; height:220px; }
+#vc_view_mid_infor1_information { width:198px; height:65px; border:solid #dddddd 1px; background-color:#fff; padding:10px; position:relative; }
+#vc_view_mid_infor1_information li {font-family:dotum; font-size:12px;}
+
+#vc_menu { width:220px; clear:left; float:left; padding:10px; }
+#vc_menu1 { width:218px; height:190px; float:left; border:#ddd solid 1px; }
+#vc_menu1_title { height:20px; padding:12px 0 11px 13px; }
+#vc_menu1_list { width:218px; height:147px; }
+#vc_menu1_list li { margin-top:1px; }
+
+#vc_menu3 {width:218px; height:78px; float:left; border:#ddd solid 1px; margin:10px 0;}
+#vc_menu3_list1 {width:218px; height:78px;}
+
+/* 타임라인 우측 게시하기 */
+#vc_right { width:740px; padding:10px 10px 10px 0; float:right; }
+#vc_view_mid_infor2 { padding:10px 0 10px 0; }
+#vc_view_mid_infor2_title1 { height:25px; float:left; margin-bottom:45px; }
+#vc_view_mid_infor2_title2 { height:25px; padding:3px 0 0 10px; float:left;}
+#vc_view_mid_infor2_title3 {width:250px; height:60px; padding-top:10px; float:right;}
+#vc_view_mid_infor2_buy {width:86px; height:86px; padding-right:10px; float:right;}
+
+/*vc 기업 정보
+#vc_view {width:980px; height:370px; float:left; padding:10px}
+#vc_view_box {width:980px; height:350px; margin:30px 0px 10px 0px; float:left;}
+ #vc_title {width:680px; height:20px; float:left;}
+ #login_box {width:300px; height:20px; text-align:right; float:right; font-weight:bold; font-size:13px; color:#F63;}
+ #vc_view_top{width:980px; height:6px; float:left; margin-top:15px;}
+ #vc_view_mid {width:976px; height:298px; float:left; background-color:#eeeeee; padding:0px 2px 0px 2px;}
+  #vc_view_mid_box {width:976px; height:298px; background-color:#f7f7f7;}
+   #vc_view_mid_infor1 {width:194px; height:280px; padding:10px 10px 8px 15px; float:left}
+    #vc_view_mid_infor1_mainphoto {width:192px; height:192px;}
+    #vc_view_mid_infor1_interest {width:192px; height:21px; background-color:#54b22a; text-align:center; padding-top:9px; font-weight:bold; color:#fff;}
+    #vc_view_mid_infor1_information {width:170px; height:66px; border:solid #dddddd 1px; background-color:#fff; padding:10px; margin-top:1px;}
+	#vc_view_mid_infor1_information li {font-family:dotum; font-size:12px;}
+	
+	
+   #vc_view_mid_infor2 {width:735px; height:280px; padding:10px 10px 8px 10px; float:right;}
+    #vc_view_mid_infor2_title1 {width:400px; height:25px; float:left;}
+	#vc_view_mid_infor2_title2 {width:400px; height:34px; padding-top:10px; float:left;}
+	#vc_view_mid_infor2_buy {width:86px; height:86px; padding:10px; float:right;}
+ #vc_view_bot {width:980px; height:6px; float:left;}
+*/

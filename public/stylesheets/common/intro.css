@@ -1,0 +1,212 @@
+/*********/
+/* intro */
+/*********/
+
+/* common */
+hr {
+	border-top-color: #ddd;
+}
+.icon-big {
+	width: 24px;
+	height: 24px;
+	margin-top: 2px;
+	margin-right: 10px;
+	opacity: .8;
+}
+
+/* layout */
+.body-wrap {
+	margin: 70px auto 20px;
+	width: 940px !important;
+}
+
+/* welcome */
+.welcome {
+	margin-bottom: 40px;
+}
+.welcome h1 {
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 2em;
+	text-align: center;
+	text-shadow: 1px 1px 0 white;
+	letter-spacing: -1px;
+}
+.welcome h1 > strong {
+	color: #f86;
+	font-size: 42px;
+}
+.welcome p {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 2em;
+	text-align: center;
+}
+
+/* introduction */
+.intro {
+	margin-bottom: 20px;
+}
+.intro .thumbnail {
+	padding: 10px;
+	background-color: #fafafa;
+	min-height: 310px;
+}
+.intro h3 {
+	font-size: 20px;
+	color: #08c;
+}
+.intro p {
+	font-size: 14px;
+}
+
+/* member */
+.member {
+	padding: 0 20px;
+}
+.signup, .signin {
+	width: 440px;
+}
+.member h3 {
+	margin-bottom: 20px;
+}
+.member p {
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+}
+.member .control-group {
+	margin-bottom: 5px;
+}
+.member .control-label {
+	width: 70px;
+	font-weight: bold;
+}
+.member .controls {
+	margin-left: 90px;
+}
+.member .submit {
+	margin-top: 15px;
+}
+.member .submit .btn {
+	margin-right: 10px;
+}
+.member .reset-password {
+	color: #999;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+/* status */
+.status {
+	margin-bottom: 30px;
+}
+.status h3 {
+	padding: 0 20px;
+	margin-bottom: 15px;
+}
+.status .thumbnail {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 46px;
+	font-weight: bold;
+	line-height: 1.5em;
+	background: #fafafa;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+            border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+       -moz-box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+    		box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+    letter-spacing: -1px;
+}
+.status .thumbnail strong {
+	display: block;
+	font-size: 20px;
+	line-height: 1.5em;
+	font-weight: normal;
+	color: #08c
+}
+.status li > p {
+	padding: 20px 15px 10px;
+	font-size: 16px;
+	line-height: 1.4em;
+}
+.status li > .btn {
+	width: 160px;
+	margin-left: 20px;
+}
+
+/* signup-intro */
+.signup-intro {
+	margin-bottom: 30px;
+}
+
+/* welcome */
+.signup-intro {
+	margin: 50px 0;
+}
+.signup-intro h1 {
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 1.2em;
+	text-align: center;
+	text-shadow: 1px 1px 0 white;
+	letter-spacing: -1px;
+}
+.signup-intro h1 > strong {
+	color: #f86;
+	font-size: 36px;
+}
+.signup-intro p {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 2em;
+	text-align: center;
+}
+
+.signup-intro h3 {
+	padding: 0 20px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.signup-intro .thumbnail {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 46px;
+	font-weight: bold;
+	line-height: 1.5em;
+	background: #fafafa;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+            border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+       -moz-box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+    		box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+    letter-spacing: -1px;
+}
+.signup-intro .thumbnail strong {
+	display: block;
+	font-size: 20px;
+	line-height: 1.5em;
+	font-weight: normal;
+	color: #08c
+}
+.signup-intro li > p {
+	padding: 20px 15px 10px;
+	font-size: 16px;
+	line-height: 1.4em;
+}
+.signup-intro li > .btn {
+	width: 160px;
+	margin-left: 20px;
+}
+/* reset-password */
+.reset-password {}
+.reset-password .control-group {
+	margin-bottom: 0;
+}
+.reset-password p {
+	text-align: center;
+}

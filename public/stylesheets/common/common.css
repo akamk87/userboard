@@ -1,0 +1,323 @@
+/* reset */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img { vertical-align: middle; }
+
+/* common */
+body {
+  font-family: "NanumGothic" !important;
+  /*background: #f2f0e9 url("https://d2h0j0bhq7ad3b.cloudfront.net/assets/blue-texture-bg-14497b31ee691423f56abcca34839ede.jpg");*/
+  background: #eee url("/public/images/strip-texture-bg.png");
+}
+.clear { clear:both; }
+
+/* gnb */
+.gnb img.face {
+    -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+            border-radius: 100px;
+    width: 25px;
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+.gnb .dropdown .inner-wrap {
+    margin-left: 30px;
+}
+.gnb .brand {
+    padding: 0;
+    margin: 8px 0 0 0px;
+    color: #f1f1f1;
+    letter-spacing: -.5px;
+    display: block;
+    width: 140px;
+    height: 24px;
+    background: url("/public/images/opentrade-ci.png") no-repeat;
+    text-indent: -9999px;
+}
+.gnb .brand b {
+    font-weight: bold;
+    color: #ff8866;
+}
+.gnb .nav > .active > a {
+    font-weight: bold;
+}
+.gnb .search-query {
+    width: 180px;
+    margin-bottom: 6px;
+}
+.gnb .btn {
+    margin-top: 5px;
+}
+
+/* Subnav */
+.subnav {
+    width: 100%;
+    height: 36px;
+    background-color: #eeeeee; /* Old browsers */
+    background-repeat: repeat-x; /* Repeat the gradient */
+    background-image: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%); /* FF3.6+ */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Chrome 10+,Safari 5.1+ */
+    background-image: -ms-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* IE10+ */
+    background-image: -o-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Opera 11.10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+    background-image: linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* W3C */
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.subnav .nav {
+    margin-bottom: 0;
+}
+.subnav .nav > li > a {
+    margin: 0;
+    padding-top:    11px;
+    padding-bottom: 11px;
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #e5e5e5;
+    -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+           border-radius: 0;
+}
+.subnav .nav > .active > a,
+.subnav .nav > .active > a:hover {
+    padding-left: 13px;
+    color: #777;
+    background-color: #e9e9e9;
+    border-right-color: #ddd;
+    border-left: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+       -moz-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+            box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+}
+.subnav .nav > .active > a .caret,
+.subnav .nav > .active > a:hover .caret {
+    border-top-color: #777;
+}
+.subnav .nav > li:last-child > a {
+    border-right: 0;
+}
+.subnav .dropdown-menu {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+.subnav-fixed {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */
+    border-color: #d5d5d5;
+    border-width: 0 0 1px; /* drop the border on the fixed edges */
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+       -moz-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+            box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); /* IE6-9 */
+}
+.subnav .nav > li:first-child > a,
+.subnav .nav > li:first-child > a:hover {
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+}
+
+/* footer */
+.footer {
+    border-top: 1px solid #ddd;
+    box-shadow: inset 0px 3px 0px rgba(0,0,0,.03);
+    min-height: 150px;
+    background: #fafafa;
+    /*background: #433421;
+    background-image: url("/images/strip-texture-bg.png");*/
+}
+.footer .container {
+    padding: 30px;
+}
+.footer .link {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.footer .link li {
+    float: left;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+    margin-right: 10px
+}
+.footer .link li:last-child {
+    border-right: none;
+}
+.footer .link a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #777;
+}
+.footer .link a:hover {
+    color: #ff8866;
+    text-decoration: none;
+}
+.footer .info {
+    font-size: 13px;
+    line-height: 1.5em;
+    color: #aaa;
+}
+.footer .rights {
+    font-family: "Tahoma";
+    font-size: 11px;
+    color: #777;
+}
+
+/* Layout */
+.body-wrap {
+    margin: 80px auto 40px;
+}
+.container {
+    width: 1000px !important;
+}
+
+/* thingy */
+.thingy {
+    text-align: center;
+    margin-bottom: 40px;
+    opacity: .3;
+}
+
+/* profile */
+.profile {
+    display: block;
+    border: 2px solid #ddd;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+            border-radius: 100px;
+    /*box-shadow: 0px 0px 2px rgba(0,0,0,.15);*/
+}
+.profile:hover {
+    border-color: #aaa;
+}
+.profile img {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+            border-radius: 100px;
+    box-shadow: inset 0px 0px 0px rgba(255,255,255,1);
+}
+/* icon */
+.icon-big {
+    width: 30px;
+    height: 30px;
+    margin-top: -2px;
+    margin-right: 2px;
+}
+.icon-warning.icon-big {
+    background: url("/public/images/icon-warning.png") no-repeat;
+    opacity: .8;
+}
+.icon-warning-s {
+    background: url("/public/images/icon-warning-s.png") no-repeat;
+    opacity: .8;
+    width: 15px;
+}
+.icon-update {
+    background: url("/public/images/icon-update.png") no-repeat;
+    opacity: .8;
+}
+.icon-now {
+    background: url("/public/images/icon-now.png") no-repeat;
+    opacity: .8;
+}
+.icon-star.icon-big {
+    background: url("/public/images/icon-star.png") no-repeat;
+    opacity: .8;
+}
+.icon-user.icon-big {
+    background: url("/public/images/icon-user.png") no-repeat;
+    opacity: .8;
+}
+.icon-search.icon-big {
+    background: url("/public/images/icon-search.png") no-repeat;
+    opacity: .8;
+}
+.icon-user-add.icon-big {
+    background: url("/public/images/icon-user-add.png") no-repeat;
+    opacity: .8;
+    width: 30px !important;
+}
+
+/* nicEditor */
+.nicEdit-main ul, .nicEdit-main ul li {
+	list-style:disc;
+}
+.nicEdit-main ol, .nicEdit-main ol li {
+	list-style:decimal;
+}
+
+/* override */
+.btn-success {
+	border-color: #f34033;
+	background-color: #f97d42;
+    background-image: -webkit-linear-gradient(top,#f97d42,#f34033);
+    background-image: -o-linear-gradient(top,#f97d42,#f34033);
+    background-image: linear-gradient(to bottom,#f97d42,#f34033);
+    background-image: -moz-linear-gradient(top,#f97d42,#f34033);
+}
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+    background-color: #f34033;
+}
+.table th, .table td {
+	line-height: 30px !important;
+}

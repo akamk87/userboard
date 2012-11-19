@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contents_bg {width:100%; overflow:hidden; background-image:url(/public/images/front/home_index_bg.gif) }
+#wrap {width:1000px; margin:0 auto;}
+
+/*로그인 정보*/ 
+#contents1 {width:400px; height:500px; float:left;  background-color:#f3f3f3;}
+#text_box { height:112px; float:left; margin-top:80px; padding-left:30px;}
+#login_box {width:355px; height:113px; margin-top:40px; background-image:url(/public/images/front/login_box_bg.jpg);}
+#login_r {width:112px; height:50px; float:right; margin-top:26px; padding-right:15px;}
+#login_bt {width:102px; height:44px; float:right;}
+#login_l {width:210px; height:50px; float:left; margin-top:24px; padding-left:15px;}
+#login_infor {float:right; padding-right:30px; margin-top:8px; font-weight:normal;}
+#login_infor li {display:inline; padding:6px;}
+#login_infor ul li a { color:#fa810a; text-decoration:none; letter-spacing:-1px; }
+#login_infor ul li a:hover { color:#fa810a; text-decoration:underline; }	
+#login_id {width:64px; height:15px; float:left; padding:4px;}
+#login_pw {width:64px; height:15px; float:left; padding:4px;}
+#login_form {width:138px; height:25px; float:left;}
+#login_join {float:left; padding-left:125px; margin-top:30px;}
+#login_l .input_text{border:1px solid #eee; width:130px; height:18px; color:#444;}
+
+/*홍보자료 출력*/  
+#contents2 {width:600px; height:500px; float:right; background-color:#f3f3f3;}
+#videobox { position:relative; width:600px; height:380px; float:left; margin-top:44px; background-color:#ff9600; }
+#videobox img { position:absolute; width:584px; height:364px; float:left; padding:8px; z-index:8; }
+#videobox img.active { z-index:10; }
+#videobox img.last-active { z-index:9; }
+#bt_box {width:100px; height:19px; padding:0px 250px; float:left; padding-top:10px;}
+#bt_box img { width:19px; height:19px; }
+#bt {width:19px; height:19px; padding:3px; float:left}
+ 
+/*등록 회원수 출력*/ 
+#contents3 { width:100%; height:60px; clear:both; background-color:#ff9600;}
+#ad_box { width:800px; margin:0 auto; padding-top:14px; text-align:center; }
+#ad_box img { padding-top:3px; }
+#ad_box li { display:inline; font-size:28px; font-weight:bold; color:#fff; }
+#ad_box li.empty { margin-right:40px; }
+#ad_box li.counts { margin-left:10px; }
+
+/* 아이디/비밀번호 찾기 */
+#intro_find_box { width:360px; border:0px solid #8b8989; float:left; margin-top:90px; padding-left:30px; }
+#intro_find_box h2 { font-size:22px; font-weight:bold; letter-spacing:-2px; }
+#intro_find_content { width:330px; color:#fff; background-color:#8b8989; margin:10px 0 0 0; padding:15px 10px; clear:both; }/*FFDEAD*/
+#intro_find_content li { clear:both; font-size:12px; height:20px; }
+#intro_find_content a { color:#fff; }
+#intro_find_content input { height:18px; border:0px solid #FFDEAD; color:#8b8989; font-size:12px; padding-left:5px; }
+#intro_find_content table { font-size:14px; }
+#intro_find_content table tr { height:25px; line-height:25px; }
+#intro_find_content table tr th { width:70px; height:25px; }
+#intro_find_content table tr td input { height:18px; line-height:18px; }
+#intro_find_content_input { margin-top:20px; padding-left:5px; }
+#intro_find_content_button, #intro_find_content_button2 { clear:both; margin-top:20px; text-align:center; }
+#intro_find_content img { margin:0 5px; }
+#intro_find_content_result { clear:both; margin:15px 0 0 10px; color:#fff; font-size:13px; }
+#intro_reset_content { width:410px; color:#fff; background-color:#8b8989; padding:20px; font-size:14px; }
+
+#intro_find_box, #intro_find_content, #intro_find_content input { -moz-border-radius:5px; border-radius:5px; }

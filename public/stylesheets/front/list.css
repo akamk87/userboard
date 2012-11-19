@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+ 
+A:link { text-decoration:none; color: #fa810a; font-weight:bold} 
+A:visited { text-decoration:none; color: #333;} 
+A:active { text-decoration:none; color: #ffd2a5;} 
+A:hover { text-decoration:underline; color:#fa810a;} 
+ 
+ 
+ 
+ 
+ 
+ 
+/* 트레이드 */
+#trading_list {width:1000px; height:100%; margin:0 auto;}
+#trading_litrading_board {width:900px; padding:50px; float:left;}
+ 
+ 
+#trading_litrading_title {width:790px; float:left;}
+ #trading_litrading_title_text1 {font-size:20px; font-weight:bold; padding-bottom:10px; float:left;}
+ #trading_litrading_title_text2 {font-size:12px; font-weight:bold; padding-top:10px; color:#F30; float:right;}
+  #trading_litrading_title_text2 li {display:inline; padding:5px 5px 5px 0px;}
+ 
+#trading_list .search_text {width:120px; height:20px; border:1px solid #aaa; color:#aaa; font-size:12px;}
+ 
+#trading_litrading_board_title {width:740px; height:20px; padding:6px 30px 5px 30px; background-color:#eee; float:left;}
+ #trading_litrading_board_title {display:inline; font:14px; font-weight:bold;}
+ #trading_litrading_board_title01 {width:140px; float:left; text-align:center;}
+ #trading_litrading_board_title02 {width:160px; float:left; text-align:center;}
+ #trading_litrading_board_title03 {width:150px; float:left; text-align:center;}
+ #trading_litrading_board_title04 {width:140px; float:left; text-align:center;}
+ #trading_litrading_board_title05 {width:140px; float:left; text-align:center;} 
+ 
+#trading_litrading_board_list {width:740px; height:31px; padding:6px 30px 5px 30px; border-top:1px solid #eee; border-bottom:1px solid #eee; float:left;}
+ #trading_litrading_board_list {display:inline; font:14px; font-weight:bold;}
+ #trading_litrading_board_list01 {width:140px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #trading_litrading_board_list02 {width:160px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #trading_litrading_board_list03 {width:150px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #trading_litrading_board_list04 {width:140px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #trading_litrading_board_list05 {width:140px; float:left; text-align:center; height:25px; padding-top:7px;}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* 펀딩리스트 */
+#funding_list {width:1000px; height:100%; margin:0 auto;}
+#funding_lifunding_board {width:900px; padding:50px; float:left;}
+ 
+ 
+#funding_lifunding_title {width:760px; float:left;}
+ #funding_lifunding_title_text1 {font-size:20px; font-weight:bold; padding-bottom:10px;}
+ #funding_lifunding_title_text2 {font-size:12px; font-weight:bold; padding-bottom:10px; color:#777;}
+  #funding_lifunding_title_text2 li {display:inline; padding:5px 5px 5px 0px;}
+ 
+#funding_list .search_text {width:120px; height:20px; border:1px solid #aaa; color:#aaa; font-size:12px;}
+ 
+#funding_lifunding_board_title {width:740px; height:20px; padding:6px 30px 5px 30px; background-color:#eee; float:left;}
+ #funding_lifunding_board_title {display:inline; font:14px; font-weight:bold;}
+ #funding_lifunding_board_title01 {width:140px; float:left; text-align:center;}
+ #funding_lifunding_board_title02 {width:140px; float:left; text-align:center;}
+ #funding_lifunding_board_title03 {width:100px; float:left; text-align:center;}
+ #funding_lifunding_board_title04 {width:120px; float:left; text-align:center;}
+ #funding_lifunding_board_title05 {width:120px; float:left; text-align:center;}
+ #funding_lifunding_board_title06 {width:100px; float:left; text-align:center;}  
+ 
+#funding_lifunding_board_list {width:740px; height:31px; padding:6px 30px 5px 30px; border-top:1px solid #eee; border-bottom:1px solid #eee; float:left;}
+ #funding_lifunding_board_list {display:inline; font:14px; font-weight:bold;}
+ #funding_lifunding_board_list01 {width:140px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #funding_lifunding_board_list02 {width:140px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #funding_lifunding_board_list03 {width:100px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #funding_lifunding_board_list04 {width:120px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #funding_lifunding_board_list05 {width:120px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #funding_lifunding_board_list06 {width:100px; float:left; text-align:center; height:27px; padding-top:5px;}
+ 
+ 
+ 
+ 
+ 
+ 
+/* 핫 스타트업 */
+#sthot_list {width:1000px; height:100%; margin:0 auto;}
+#sthot_listhot_board {width:900px; padding:50px; float:left;}
+ 
+ 
+#sthot_listhot_title {width:760px; float:left;}
+ #sthot_listhot_title_text1 {font-size:20px; font-weight:bold; padding-bottom:10px;}
+ #sthot_listhot_title_text2 {font-size:12px; font-weight:bold; padding-bottom:10px; color:#777;}
+  #sthot_listhot_title_text2 li {display:inline; padding:5px 5px 5px 0px;}
+ 
+#sthot_list .search_text {width:120px; height:20px; border:1px solid #aaa; color:#aaa; font-size:12px;}
+ 
+#sthot_listhot_board_title {width:740px; height:20px; padding:6px 30px 5px 30px; background-color:#eee; float:left;}
+ #sthot_listhot_board_title {display:inline; font:14px; font-weight:bold;}
+ #sthot_listhot_board_title01 {width:120px; float:left; text-align:center;}
+ #sthot_listhot_board_title02 {width:170px; float:left; text-align:center;}
+ #sthot_listhot_board_title03 {width:170px; float:left; text-align:center;}
+ #sthot_listhot_board_title04 {width:270px; float:left; text-align:center;}
+ 
+#sthot_listhot_board_list {width:740px; height:31px; padding:6px 30px 5px 30px; border-top:1px solid #eee; border-bottom:1px solid #eee; float:left;}
+ #sthot_listhot_board_list {display:inline; font:14px; font-weight:bold;}
+ #sthot_listhot_board_list01 {width:120px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #sthot_listhot_board_list02 {width:170px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #sthot_listhot_board_list03 {width:170px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #sthot_listhot_board_list04 {width:270px; float:left; text-align:center; height:25px; padding-top:7px;}
+ 
+ 
+ 
+ 
+ 
+ 
+/* 마일스톤 리스트 */
+#ms_list {width:1000px; height:100%; margin:0 auto;}
+#ms_lims_board {width:900px; padding:50px; float:left;}
+ 
+ 
+#ms_lims_title {width:760px; float:left;}
+ #ms_lims_title_text1 {font-size:20px; font-weight:bold; padding-bottom:10px;}
+ #ms_lims_title_text2 {font-size:12px; font-weight:bold; padding-bottom:10px; color:#777;}
+  #ms_lims_title_text2 li {display:inline; padding:5px 5px 5px 0px;}
+ 
+#ms_list .search_text {width:120px; height:20px; border:1px solid #aaa; color:#aaa; font-size:12px;}
+ 
+#ms_lims_board_title {width:740px; height:20px; padding:6px 30px 5px 30px; background-color:#eee; float:left;}
+ #ms_lims_board_title {display:inline; font:14px; font-weight:bold;}
+ #ms_lims_board_title01 {width:140px; float:left; text-align:center;}
+ #ms_lims_board_title02 {width:150px; float:left; text-align:center;}
+ #ms_lims_board_title03 {width:150px; float:left; text-align:center;}
+ #ms_lims_board_title04 {width:190px; float:left; text-align:center;}
+ #ms_lims_board_title05 {width:100px; float:left; text-align:center;}
+#ms_lims_board_list {width:740px; height:31px; padding:6px 30px 5px 30px; border-top:1px solid #eee; border-bottom:1px solid #eee; float:left;}
+ #ms_lims_board_list {display:inline; font:14px; font-weight:bold;}
+ #ms_lims_board_list01 {width:140px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #ms_lims_board_list02 {width:150px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #ms_lims_board_list03 {width:115px; float:left; text-align:left; height:25px; padding-top:7px;}
+ #ms_lims_board_list04 {width:190px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #ms_lims_board_list05 {width:100px; float:left; text-align:center; height:26px; padding-top:6px;}
+ 
+ 
+#mailestoen_star {width:14px; height:16px; overflow:hidden; background-image:url(/public/images/front/icon_20x20_star.gif); background-repeat:no-repeat; padding:4px 0px 0px 6px; float:left; font:bold 12px dotum; margin-top:3px;}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* 스타트업 & 예비창업자 */
+ 
+#st_list {width:1000px; height:100%; margin:0 auto;}
+#st_list_board {width:900px; padding:50px; float:left;}
+ 
+ 
+#st_list_title {width:760px; float:left;}
+ #st_list_title_text1 {font-size:20px; font-weight:bold; padding-bottom:10px;}
+ #st_list_title_text2 {font-size:12px; font-weight:bold; padding-bottom:10px; color:#777;}
+  #st_list_title_text2 li {display:inline; padding:5px 5px 5px 0px;}
+ 
+#st_list .search_text {width:120px; height:20px; border:1px solid #aaa; color:#aaa; font-size:12px;}
+ 
+#st_list_board_title {width:740px; height:20px; padding:6px 30px 5px 30px; background-color:#eee; float:left;}
+ #st_list_board_title {display:inline; font:14px; font-weight:bold;}
+ #st_list_board_title01 {width:120px; float:left; text-align:center;}
+ #st_list_board_title02 {width:170px; float:left; text-align:center;}
+ #st_list_board_title03 {width:170px; float:left; text-align:center;}
+ #st_list_board_title04 {width:120px; float:left; text-align:center;}
+ #st_list_board_title05 {width:120px; float:left; text-align:center;}
+#st_list_board_list {width:740px; height:31px; padding:6px 30px 5px 30px; border-top:1px solid #eee; border-bottom:1px solid #eee; float:left;}
+ #st_list_board_list {display:inline; font:14px; font-weight:bold;}
+ #st_list_board_list01 {width:120px; float:left; text-align:center; height:32px;}
+ #st_list_board_list02 {width:170px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #st_list_board_list03 {width:170px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #st_list_board_list04 {width:120px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #st_list_board_list05 {width:120px; float:left; text-align:center; height:26px; padding-top:6px;}
+ 
+ 
+ 
+ 
+/* 투자자 */
+ 
+#vc_list {width:1000px; height:100%; margin:0 auto;}
+#vc_livc_board {width:900px; padding:50px; float:left;}
+ 
+ 
+#vc_livc_title {width:760px; float:left;}
+ #vc_livc_title_text1 {font-size:20px; font-weight:bold; padding-bottom:10px;}
+ #vc_livc_title_text2 {font-size:12px; font-weight:bold; padding-bottom:10px; color:#777;}
+  #vc_livc_title_text2 li {display:inline; padding:5px 5px 5px 0px;}
+ 
+#vc_list .search_text {width:120px; height:20px; border:1px solid #aaa; color:#aaa; font-size:12px;}
+ 
+#vc_livc_board_title {width:740px; height:20px; padding:6px 30px 5px 60px; background-color:#eee; float:left;}
+ #vc_livc_board_title {display:inline; font:14px; font-weight:bold;}
+ #vc_livc_board_title01 {width:120px; float:left; text-align:center;}
+ #vc_livc_board_title02 {width:170px; float:left; text-align:center;}
+ #vc_livc_board_title03 {width:200px; float:left; text-align:center;}
+ #vc_livc_board_title04 {width:120px; float:left; text-align:center;}
+ 
+#vc_livc_board_list {width:740px; height:31px; padding:6px 30px 5px 60px; border-top:1px solid #eee; border-bottom:1px solid #eee; float:left;}
+ #vc_livc_board_list {display:inline; font:14px; font-weight:bold;}
+ #vc_livc_board_list01 {width:120px; float:left; text-align:center; height:32px;}
+ #vc_livc_board_list02 {width:170px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #vc_livc_board_list03 {width:200px; float:left; text-align:center; height:25px; padding-top:7px;}
+ #vc_livc_board_list04 {width:120px; float:left; text-align:center; height:25px; padding-top:7px;}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+#board_page {width:810px; height:30px; float:left; text-align:center; padding-top:20px;}
+#board_page_box {width:810px; height:20px; float:left;}
+ #board_page li {display:inline; font: 13px dotum; line-height:25px;}

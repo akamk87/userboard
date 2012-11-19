@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * 	Flash Screen
+ */
+div#flash_screen_overlay {
+	position: absolute;
+	top: 78px;
+	left: 0px;
+	width: 100%;
+	min-height: 150px;
+	background-color: #3B3B3B;
+	border-bottom: 1px solid #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	opacity: 0.9;
+	z-index: 105;
+	display: none;
+}
+
+div#flash_screen_overlay div#close_flash_screen {
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+div#flash_screen {
+	width: 600px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+}
+
+div#flash_screen h1 {
+	color: #FFF;
+}
+
+div#flash_screen ul {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+div#flash_screen ul li {
+	font-size: 1.3em;
+	color: #FFF;
+	margin-bottom: 15px;
+}
+
+div#flash_screen ul li div {
+	float: left;
+	margin-right: .7em;
+}
+
+div#flash_screen ul li.error {}
+
+div#flash_screen ul li.notice {}

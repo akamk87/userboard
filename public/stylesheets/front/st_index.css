@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 테두리 속성*/
+#wrap {width:1000px; margin:0 auto;}
+
+/* 스타트업 타임라인 헤더 */ 
+#st_header { width:970px; height:40px; margin-top:20px; padding:0 0 0 10px; }
+#st_title { height:20px; float:left; }
+
+/* 타임라인 좌측 프로필, 메뉴 */
+#st_left { width:220px; float:left; padding:5px 10px; }
+#st_view_mid_infor1_mainphoto { width:220px; height:220px; }
+#st_view_mid_infor1_interest { width:220px; height:30px; margin-top:190px; background-color:#fa810a; position:absolute;  opacity:0.6; filter:alpha(opacity=60); }
+#st_view_mid_infor1_interest_text { height:30px; padding-top:6px; font-size:14px; text-align:center; font-weight:bold; color:#FFFFFF;}
+#st_view_mid_infor1_information { width:198px; border:solid #dddddd 1px; background-color:#fff; padding:10px; position:relative; }
+#st_view_mid_infor1_information li {font-family:dotum; font-size:12px;}	
+
+#st_menu {width:220px; clear:left; float:left; padding:5px 10px 30px 10px;}
+
+#st_menu1 {width:218px; height:228px; float:left; border:#ddd solid 1px;}
+#st_menu1_title {width:218px; height:43px;}
+#st_menu1_list {width:218px; height:185px;}
+#st_menu1_list li {margin-top:1px;}
+
+#st_menu2 { width:218px; float:left; border:#ddd solid 1px; margin-top:10px; } /* height:294px; */
+#st_menu2_title {width:218px; height:43px; border-bottom:#ddd solid 1px; margin-bottom:5px;}
+#st_menu2_list { padding:10px; float:left; } /* height:190px; */
+#st_menu2_list li { font-weight:bold; font-size:12px; font-family:dotum; clear:both; }
+#st_menu2_list li img { float:left; padding-right:5px; }
+#st_menu2_list div.milestone_star_no { float:left; width:20px; height:16px; padding:5px 0px 0px 6px; }
+#st_menu2_list div.milestone_title { display:inline-block; height:16px; padding:5px 0 5px 3px; }
+#st_menu2_button { width:218px; height:30px; float:left; margin-top:5px; }
+ 
+#st_menu3 {width:218px; height:78px; float:left; border:#ddd solid 1px; margin-top:10px;}
+#st_menu3_list1 {width:218px; height:78px;}
+
+/* 타임라인 우측 게시하기 */
+#st_right { width:735px; padding:10px 10px 10px 0; float:right; }
+#st_view_mid_infor2 { padding:10px 0 10px 0; }
+#st_view_mid_infor2_title1 { height:25px; float:left;}
+#st_view_mid_infor2_title2 { height:25px; padding:3px 0 0 10px; float:left;}
+#st_view_mid_infor2_title3 {width:250px; height:60px; padding-top:10px; float:right;}
+#st_view_mid_infor2_buy {width:86px; height:86px; padding-right:10px; float:right;}
+
+/* 관심목록 추가 */
+#interest { padding-left:10px; }
+
+/* 예전 레이아웃
+#st_view {width:980px; height:370px; float:left; padding:10px}
+#st_view_box {width:980px; height:350px; margin:20px 0px 10px 0px; float:left;}
+#st_view_top{width:980px; height:6px; float:left; margin-top:15px;}
+#st_view_mid {width:976px; height:298px; float:left; background-color:#eeeeee; padding:0px 2px 0px 2px;}
+#st_view_mid_box {width:976px; height:298px; background-color:#f7f7f7;}	
+#st_view_bot {width:980px; height:6px; float:left;}
+*/

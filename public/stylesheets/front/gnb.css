@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*글로벌네비게이션*/
+#gnb {width:100%; overflow:hidden; background-image:url(/public/images/front/gnb/gnb_bg.gif); position:relative; }
+#gnb_box {width:1000px; border-bottom:solid 0px #999; overflow:auto; margin:0 auto; }
+#gnb_nv { width:1000px; float:left; height:88px; background-color:#333; }
+#gnb_nvmenu { margin:40px 100px; } /* 42px */
+#gnb_nvmenu li { display:inline; height:20px; float:left; padding-left:30px; }
+#gnb_logo {width:235px; float:left; height:50px; padding:33px 0px;}
+#gnb_search {width:410px; height:50px; float:left; padding:33px 0px 33px 50px;}
+#search_box {width:345px; height:41px; float:left; background-image:url(/public/images/front/gnb/gnb_search_bg.gif)}
+#search_textbox {width:305px; height:21px; padding:10px 20px 10px 20px;}
+#search_textbox input {width:305px; height:21px; line-height:21px; border:0px; color:#aaa; background-color:transparent; font-size:12px;}
+#search_bt {width:65px; float:right;}
+#search_bot {width:410px; height:20px; text-align:center; margin-top:6px; color:#555; font:bold 12px dotum;}
+#gnb_iconbox { height:59px; float:right; padding:20px 10px 0 0; }
+#gnb_iconbox li {display:inline; float:left;}
+#login_box { height:30px; clear:right; text-align:right; font-weight:normal; font-size:13px; color:#F63; padding:6px 5px 2px 0; }
+
+/* 롤오버 */ 
+#menu a img.menuon {display: none;}
+#menu a img.menuoff {display: inline;}
+#menu a:hover img.menuon {display: inline;}
+#menu a:hover img.menuoff {display: none;}
+ 
+ 
+ 

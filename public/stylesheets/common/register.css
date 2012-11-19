@@ -1,0 +1,186 @@
+/********/
+/* register */
+/********/
+
+/* layout */
+.body-wrap {
+	width: 800px !important;
+	margin: 35px auto 40px;
+	background: #fff;
+	border: #ddd 1px solid;
+	-webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+       -moz-box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+    		box-shadow: 0px 0px 0px 5px rgba(0,0,0,.025);
+}
+
+/* GNB */
+.subnav {
+	display: none;
+}
+
+/* body */
+/* head */
+.head-wrap {
+	background-color: #efefef;
+	background-image: -moz-linear-gradient(top,#F2F0E9,#FaFaFa);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#F2F0E9),to(#FaFaFa));
+	background-image: -webkit-linear-gradient(top,#F2F0E9,#FaFaFa);
+	background-image: -o-linear-gradient(top,#F2F0E9,#FaFaFa);
+	background-image: linear-gradient(to bottom,#F2F0E9,#FaFaFa);
+	background-repeat: repeat-x;
+	padding: 20px;
+}
+.head-wrap h1 {
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 2em;
+	text-align: center;
+	text-shadow: 0 1px 0 white;
+	letter-spacing: -1px;
+}
+.head-wrap h1 > strong {
+	color: #f86;
+	font-size: 42px;
+}
+.head-wrap h1::after {
+	margin-bottom: -5px;
+	width: 55px;
+	height: 45px;
+	background: url("/public/images/signup.png") no-repeat 50% 50%;
+	display: inline-block;
+	margin-left: 10px;
+	content: " ";
+}
+.head-wrap p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5em;
+	text-shadow: 0 1px 0 white;
+	color: #777;
+}
+.head-wrap .thingy {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	opacity: .5;
+}
+/* main */
+.main-wrap {
+	padding: 20px 40px;
+}
+h3 {
+	font-size: 22px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #bbb;
+	margin-bottom: 20px;
+}
+h4 {
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+.help_box {
+	clear: both;
+	display: none;
+	margin: 5px 0 0 10px;
+	font-size: 13px;
+	font-weight: normal;
+}
+.control-label {
+	width: 100px !important;
+}
+.controls {
+	margin-left: 120px !important;
+}
+hr {
+	border-top-color: #ddd;
+}
+form .well > p {
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #777;
+}
+form .well > p > u {
+	color: #444;
+	text-decoration: none;
+}
+.profile-upload .btn {
+	margin-left: 10px;
+}
+.btn-wrap {
+	text-align: center;
+}
+.pagination {
+	text-align: center;
+}
+
+/* terms */
+.terms {
+	border: 2px solid #ddd;
+	overflow: auto;
+	height: 200px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+.terms-checkbox {
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.terms h1 {
+	font-size: 20px;
+	line-height: 1.5em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.terms h2 {
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+.terms p {
+	font-size: 14px;
+	line-height: 1.3em;
+}
+.terms ol {
+	font-size: 14px;
+	line-height: 1.3em;
+	margin-left: 25px;
+}
+.terms ol ol {
+}
+.terms ol ol ol {
+}
+/* complete */
+.complete {
+	padding: 50px 120px 80px;
+	text-align: center;
+}
+.complete .profile {
+	width: 100px;
+	height: 100px;
+	margin: 0px auto 20px;
+}
+.complete .profile img {
+	width: 100px;
+	height: 100px;
+}
+.complete h1 {
+	margin-bottom: 20px;
+}
+.complete .well {
+	text-align: left;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+.complete p > b {
+	color: #f86;
+}

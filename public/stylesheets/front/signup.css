@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+A:link { text-decoration:none; color: #fa810a; font-weight:bold}
+A:visited { text-decoration:none; color: #333;} 
+A:active { text-decoration:none; color: #ffd2a5;} 
+A:hover { text-decoration:underline; color:#fa810a;}
+
+.right { text-align:right; }
+
+/* 회원가입 인덱스 */
+#signup_wrap {width:100%; overflow:hidden; background-image:url(/public/images/front/signup_index_bg.gif)}
+#signup_index { width:1000px; height:380px; margin:0 auto; }
+#signup_index_text { width:439px; height:75px; margin-top:52px; margin-bottom:46px; padding-left:254px; }
+#signup_index_btset { width:830px; height:186px; padding-left:84px; }
+#signup_index_btset li { display:inline; float:left; }
+
+/* 회원가입 상태창 */
+#signup_step { width:100%; overflow:hidden; background-color:#ff9600; }
+#signup_step_box { width:1000px; height:100px; margin:0 auto; }
+#sigup_step_title { padding:30px 20px 20px 50px; float:left; }
+#sigup_step_img { padding:10px 50px 10px 10px; text-align:right; }
+#sigup_step_img li { width:120px; display:inline; padding-left:20px; }
+
+/* 회원가입 폼 */
+#signup_content { width:100%; overflow:hidden; background-color:#f7f7f7; }
+#signup_content_wrap { width:1000px; margin:0 auto; }
+#signup_content_box { width:850px; padding:50px 50px 30px 50px; float:left; }
+#signup_content_title { width:850px; margin-bottom:10px; float:left; font-size:20px; font-weight:bold; }
+#signup_content_subtitle { height:16px; line-height:16px; margin:10px 0 10px 0; float:left; font-size:16px; font-weight:bold; }
+#signup_content_help { float:left; padding:10px 0 0 5px; }
+span.question { display:inline-block; cursor:pointer; position:relative; border-radius:8px; width:16px; height:16px; line-height:16px; background:transparent url(/public/images/front/icon_16x16_question.png) no-repeat; color:#000; }
+div.tooltip { background-color:#333; font-weight:bold; }
+div.tooltip p { padding:5px; color:#fff; }
+div.tooltip_box { padding:10px; color:#000; background-color:#333; font-weight:bold; position:absolute; left:25px; top:-10px; z-index:1000000; width:400px; border-radius:5px; }
+div.tooltip_box:before {
+  border-color: transparent #333 transparent transparent;
+  border-right: 6px solid #333;
+  border-style: solid;
+  border-width: 6px 6px 6px 0px;
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  line-height: 0;
+  position: absolute;
+  top: 10px;
+  left: -6px;
+}
+div.tooltip_box h4 { font-size:15px; color:#fff; }
+div.tooltip_box p { margin:0px; color:#fff; display:block; }
+
+#signup_content_desc { width:850px; margin:10px 0 10px 0; float:left; font-size:13px; }
+#signup_content_pic { background:#fff; }
+#namecheck { cursor:pointer; border:0; width:200px; height:21px; font-size:12px; font-weight:bold; line-height:21px; color:#000080; background:#f7f7f7; }
+#namecheck:hover { text-decoration:underline; }
+#signup_content_box table { width:100%; border-collapse:collapse; margin-top:10px; margin-bottom:20px; }
+#signup_content_box table.member { width:100%; border-collapse:collapse; margin-top:0px; margin-bottom:0px; }
+#signup_content_box table tbody tr { }
+#signup_content_box table tbody tr.top { border-top:1px solid #333; }
+#signup_content_box table tbody tr.middle { border-bottom:1px solid #DDD; }
+#signup_content_box table tbody tr.bottom { border-bottom:1px solid #333; }
+#signup_content_box table tbody th { width:160px; font-weight:bold; font-size:13px; background:#eee; text-align:left; vertical-align:top; padding:15px 0 10px 20px; }
+#signup_content_box table tbody td { padding:10px 0 10px 20px; }
+#signup_content_box table tbody td.narrow { padding:10px 0 0px 20px; }
+#signup_content_box table tbody input.box { height:21px; border:1px solid #aaa; color:#000; font-size:12px; }
+#signup_content_box table tbody input.small_box { width:20%; height:21px; border:1px solid #aaa; color:#aaa; font-size:12px; }
+#signup_content_box table tbody input.normal_box { width:30%; height:21px; border:1px solid #aaa; color:#aaa; font-size:12px; }
+#signup_content_box table tbody input.middle_box { width:50%; height:21px; border:1px solid #aaa; color:#aaa; font-size:12px; }
+#signup_content_box table tbody input.large_box { width:98%; height:21px; border:1px solid #aaa; color:#aaa; font-size:12px; }
+#signup_content_box table tbody .textarea { width:95%; height:150px; border:1px solid #aaa; color:#000; font-size:12px; resize:none; padding:10px; }
+#signup_content_box table tbody .bm { width:637px; height:70px; border:1px solid #aaa; color:#aaa; font-size:12px; resize:none; background-color:#fff; }
+#signup_content_box table tbody .nicEdit-main { background-color:#fff; }
+
+#signup_content_box table.milestone { width:100%; border-collapse:collapse; margin-top:10px; margin-bottom:20px; }
+#signup_content_box table.milestone tbody tr.top { border-top:1px solid #333; }
+#signup_content_box table.milestone tbody tr.middle { border-bottom:1px solid #DDD; }
+#signup_content_box table.milestone tbody tr.bottom { border-bottom:1px solid #333; }
+#signup_content_box table.milestone tbody th { width:50px; font-weight:bold; font-size:13px; background:#eee; text-align:left; vertical-align:top; padding:20px 0 0 10px; }
+#signup_content_box table.milestone tbody th.top { padding:10px 0 0 15px; }
+#signup_content_box table.milestone tbody td.key { width:100px; font-weight:bold; font-size:13px; text-align:left; padding:10px 0 10px 20px; }
+#signup_content_box table.milestone tbody td.desc { padding:10px 0 10px 20px; }
+#signup_content_box table.milestone tbody td.arrow { width:50px; background:#eee; text-align:center; vertical-align:middle; padding:5px; }
+
+/* 이전 다음 버튼 */
+#signup_m_foot_bt { width:850px; margin-top:20px; }
+#signup_m_foot_bt_left { float:left; padding:0px; }
+#signup_m_foot_bt_right { float:right; padding:0px; }

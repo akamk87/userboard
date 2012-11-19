@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 타임라인 업로드 */
+#timeline_comment {width:628px; height:160px; padding-top:0px; clear:left; float:left;}
+#timeline_textarea {width:500px; height:140px; float:left}
+#timeline_text {width:502px; height:137px; float:left; border:1px solid #ddd; background-color:#FFF}
+#timeline_bt {padding-left:10px;}
+#timeline_text .timeline_text{width:490px; height:50px; border:hidden; overflow:hidden; border-bottom:1px dotted #aaa; padding:5px; line-height:20px; color:#999;}
+#timeline_fileup_text {width:480px; float:left; padding:2px 10px 2px 10px; line-height:20px;overflow: auto;height:70px;}  
+#timeline_fileup_text li{ padding-top:3px; color:#999;}
+#timeline_comment_enter {float:right; margin-top:65px;}
+
+/* 타임라인 */
+/*#timeline {width:728px; float:right; padding:10px;  margin-top:10px; margin-bottom:20px; border:#ddd solid 1px;}*/
+#timeline_box {width:708px; float:left; padding:10px;  border-bottom:#ffd2a5 solid 1px;}
+#timeline_miniphoto {width:64px; height:64px; float:left; padding:10px;}
+#timeline_textview {width:590px; float:left; padding:10px;}
+#timeline_textview_id { float:left; padding:0px 10px 0px 10px; font-size:16px; font-weight:bold;}
+#timeline_textview_text { clear:left; float:left; padding:2px 10px 2px 10px; line-height:20px;}
+#timeline_textview_date { clear:left; float:left; padding:0px 10px 0px 10px;}
+#timeline_icon { float:right; padding:0 10px 0 0; color:#aaa; }
+
+#timeline_page {width:728px; height:30px; float:left; text-align:center; padding-top:20px;}
+#timeline_page_box {width:728px; height:20px; float:left;}
+#timeline_page li {display:inline; font: 13px dotum; line-height:25px;}
+
+/*시드펀딩*/
+#seedfunding_box {width:460px; float:left;}
+ #sf_top {width:460px; height:10px;}
+ #sf_mid {width:456px;  border-left:2px solid #fff; border-right:2px solid #fff; background-color:#fa810a;}
+  #sf_mid_title {width:318px; padding:10px 77px 0px 77px;}
+  #sf_mid_text1 {width:458px; text-align:center; font-weight:bold; font-size:20px;}
+  #sf_mid_text2 {width:378px; padding:30px 40px 10px 40px; font-weight:bold; font-size:14px;}
+   #sf_mid_text2 li {margin-top:5px;}
+  #sf_mid_bar_box {width:322px; padding:10px 68px 10px 68px;}
+   #sf_mid_barbg {width:322px; height:22px; border-radius:15px; background-color:#fff; }
+   #sf_mid_bar {width:80%; height:22px; border-radius:15px; background-color:#ff0000;}
+   #sf_mid_bar_Layer {padding:2px 2px 2px 10px; width:200px; height:18px; font-size:13px; font-weight:bold; color: #fff;}
+ #sf_bot {width:460px; height:10px;}
+
+/*오픈트레이드*/
+#opentrade_box {width:460px; float:left;}
+ #ot_top {width:460px; height:10px;}
+ #ot_mid {width:456px;  border-left:2px solid #fff; border-right:2px solid #fff; background-color:#fa810a;}
+  #ot_mid_text {width:378px; padding:10px 40px 10px 40px; font:bold 13px dotum;}
+ #ot_bot {width:460px; height:10px;}
+

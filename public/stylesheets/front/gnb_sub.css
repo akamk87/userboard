@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*로그인 gnb*/
+#gnb_sub {width:100%; overflow:hidden; background-image:url(/public/images/front/gnb/gnb_sub_bg.gif) }
+#header {width:1000px;  border-bottom:solid 1px #999;  margin:0 auto;}
+ #headerline1 {width:1000px; float:left; height:22px; background-color:#333;}
+ #headerlogo {width:1000px; float:left; height:50px; padding:33px 0px;}
+ 
+ 
+ /* 롤오버 */ 
+#menu a img.menuon {display: none;}
+#menu a img.menuoff {display: inline;}
+#menu a:hover img.menuon {display: inline;}
+#menu a:hover img.menuoff {display: none;}
